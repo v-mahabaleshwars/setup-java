@@ -4,7 +4,7 @@
 [![Validate Java e2e](https://github.com/actions/setup-java/actions/workflows/e2e-versions.yml/badge.svg?branch=main)](https://github.com/actions/setup-java/actions/workflows/e2e-versions.yml)
 [![Validate cache](https://github.com/actions/setup-java/actions/workflows/e2e-cache.yml/badge.svg?branch=main)](https://github.com/actions/setup-java/actions/workflows/e2e-cache.yml)
 
-Set up Java for GitHub Actions workflows. `setup-java` installs a requested Java distribution, adds it to `PATH`, configures `JAVA_HOME`, and can optionally cache build dependencies for Apache Maven, Gradle, and sbt; generate Maven publishing configuration, verify JDK package signatures, manage multiple JDKs, and manage Maven toolchains.
+Set up Java for GitHub Actions workflows. `setup-java` installs a requested Java distribution, adds it to `PATH`, configures `JAVA_HOME`, and can optionally cache build dependencies for Apache Maven, Gradle, and sbt, generate Maven publishing configuration, verify JDK package signatures, manage multiple JDKs, and manage Maven toolchains.
 
 ```yaml
 steps:
